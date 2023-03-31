@@ -32,8 +32,19 @@ nav{
     color: var(--text);
 
 }
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--background);
+
+}
 /* –––––––––––––––––––––––––––––––––– */
 /* Nav Bar Styling */
+
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
 .nav-container{
     display: flex;
     flex-direction: row;
@@ -69,4 +80,7 @@ nav{
     color: var(--text);
 }
 
+#navbarNav{
+    flex-basis: 90%;
+}
 /* –––––––––––––––––––––––––––––––––– */
