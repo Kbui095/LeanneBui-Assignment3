@@ -1,11 +1,11 @@
 /* Setting up main page style */
 :root {
-    --font:#5D5A88;
+    --font:#fefae0;
     --fontContrast: #faf8ef;
-    --background: #fefae0;
+    --background: #ccd5ae;
     --secondary-background: #e9edc9;
     --hover: #e9edc9;
-    --text: #021d00;
+    --text: #283618;
     --secondary-text: #606c38;
     --highlight: #faedcd; 
     --required: #ff3838; 
@@ -19,7 +19,6 @@ h4,
 h5,
 h6 {
   font-family: 'Courier New', Courier, monospace;
-  color: var(--text);
 }
 
 html{
@@ -29,7 +28,6 @@ html{
 
 nav{
     font-family: 'Courier New', Courier, monospace;
-    color: var(--text);
 
 }
 
@@ -84,3 +82,82 @@ section {
     flex-basis: 90%;
 }
 /* –––––––––––––––––––––––––––––––––– */
+/* Hero Styling */
+
+#hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    scale: 100%;
+    padding-top: 7%;
+}
+#hero-button:hover{
+    cursor: pointer;
+}
+
+
+/* –––––––––––––––––––––––––––––––––– */
+/* Cards Styling */
+#cards{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.card-img-top{
+    width: auto;
+    height: 20%;
+}
+.card{
+    margin-top: 5%;
+}
+
+
+/* ----------------------------------------------- */
+@media screen and (min-width: 590px) {
+   
+
+
+}
+
+@media screen and (min-width: 790px){
+    #card1{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    #card2{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #card3{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    #card1{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    #card2{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #card3{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+
+}
