@@ -1,0 +1,72 @@
+/* Setting up main page style */
+:root {
+    --font:#5D5A88;
+    --fontContrast: #faf8ef;
+    --background: #fefae0;
+    --secondary-background: #e9edc9;
+    --hover: #e9edc9;
+    --text: #021d00;
+    --secondary-text: #606c38;
+    --highlight: #faedcd; 
+    --required: #ff3838; 
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--text);
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--background);
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text);
+
+}
+/* –––––––––––––––––––––––––––––––––– */
+/* Nav Bar Styling */
+.nav-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#logo{
+    margin-left: 2%;
+    width: 7%;
+}
+
+.navbar-toggler{
+    color: var(--secondary-background);
+    background-color: var(--secondary-background);
+}
+.navbar-toggler:hover{
+    background-color: var(--hover);
+    color:var(--secondary-text);
+}
+
+.nav-item{
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.nav-item:hover{
+    background-color: var(--hover);
+}
+
+.nav-link active:hover{
+    color: var(--text);
+}
+
+/* –––––––––––––––––––––––––––––––––– */
