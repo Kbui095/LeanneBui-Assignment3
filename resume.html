@@ -13,7 +13,7 @@
     </head>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav id="top-nav" class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
               <!-- Leanne's Logo -->
              <div class="nav-container"> 
@@ -32,7 +32,7 @@
                   <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./resume.html">Leanne's Resume</a>
+                  <a class="nav-link" href="./resume.html">Leanne's Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.linkedin.com/in/leanne-bui/">View My Linkedin</a>
@@ -44,6 +44,55 @@
       </header>
 
     <body>
-        hello world
+        <main>
+             <!-- Hero Section -->
+            <section class="container-fluid">
+                <div id="hero">
+                <img src="./images/header-pg2.svg" alt="Welcome to Leanne's portfolio website">
+                <a href="#section1" class="btn btn-outline-light">`.* ♡ Explore More ♡ *.`</a>
+                </div>
+            </section>
+
+            <section id="section1" >
+                <h1 id="headline">Projects I Have Worked On</h1>
+                <div id="cards">
+                   <!-- Bootstrap Cards -->
+                  <!-- Card #1-->
+                  <div id="card1" class="card" style="width: 20rem;">
+                    <img src="./images/card1.png" class="card-img-top" alt="Letterpress Machine">
+                    <div class="card-body">
+                      <h5 class="card-title">918 Press</h5>
+                      <p class="card-text">Leanne's 100 year old letterpress printing machine. Creating bespoke paper goods through the analogue art of printing making. </p>
+                      <a href="https://www.918press.com" class="btn btn-primary">See the press!</a>
+                    </div>
+                  </div>
+                  <!-- Card #2-->
+                  <div id="card2" class="card" style="width: 20rem;">
+                    <img src="./images/card2.png" class="card-img-top" alt="PayTickr Website">
+                    <div class="card-body">
+                      <h5 class="card-title">PayTickr</h5>
+                      <p class="card-text">A time tracking and payroll system that combines the two on one platform. Leanne was the lead UI/UX designer and front-end developer. </p>
+                      <a href="https://www.paytickr.com" class="btn btn-primary">Take me to the site</a>
+                    </div>
+                  </div>
+                  <!-- Card #3-->
+                  <div id="card3" class="card" style="width: 20rem;">
+                    <img src="./images/card3.png" class="card-img-top" alt="Letterpress Machine">
+                    <div class="card-body">
+                      <h5 class="card-title">Leftover Rescue Food App</h5>
+                      <p class="card-text">The visionary for the original Leftovers app. Created the UI/UX when Leanne was in highschool.</p>
+                      <a href="https://apps.apple.com/ca/app/rescue-food-app/id1447273598" class="btn btn-primary">Let's see the App</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </main>
     </body>
+
+    <footer>
+        <div class="container-fluid" id="footer">
+          <a href="#top-nav" class="btn btn-outline-dark">`.* ♡ Return to the Top ♡ *.`</a>
+        </div>
+      </footer>
+
 </html>
